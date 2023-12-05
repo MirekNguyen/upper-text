@@ -1,7 +1,7 @@
 local M = {}
 
 -- Define a Neovim command to add quotes to the selected text
-vim.cmd([[command! -range AddQuotes lua require('plugins.add_quotes').add_quotes()]])
+vim.cmd([[command! -range AddQuotes lua require('upper-text').add_quotes()]])
 
 -- Define the function to add quotes to selected text
 function M.add_quotes()
